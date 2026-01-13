@@ -1,7 +1,7 @@
 // ToastProvider.jsx
 import React, { useState, useEffect } from "react";
 import styled, { keyframes } from "styled-components";
-import toast from "../../../Back-end/utils/toast";
+import toast from "../../util/toast";
 
 const fade = keyframes`
   0% { opacity: 0; transform: translateY(-20px); }
