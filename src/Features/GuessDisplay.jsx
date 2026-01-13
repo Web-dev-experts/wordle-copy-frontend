@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import LetterBox from '../ui/LetterBox';
 import GuessDisplayStyling from '../ui/GuessDisplayStyling';
-import { GameContext } from '../Pages/Game';
+import { GameContext } from '../pages/Game';
 
 function GuessDisplay({ children }) {
   const { userWord, guessesList, userWordStr } = useContext(GameContext);
