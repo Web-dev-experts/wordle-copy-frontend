@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import styled from "styled-components";
-import { GameContext } from "../Pages/Game";
+import { GameContext } from "../pages/Game";
 
 const KeyStyling = styled.button`
   background: #b3b3b3;

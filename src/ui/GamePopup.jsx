@@ -1,6 +1,6 @@
 import { useContext, useEffect, useRef, useState } from "react";
 import styled from "styled-components";
-import { GameContext } from "../Pages/Game";
+import { GameContext } from "../pages/Game";
 import Button from "./Button";
 import { useNavigate } from "react-router-dom";
 import winner from "../public/winner.png";
