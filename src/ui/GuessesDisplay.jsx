@@ -1,7 +1,7 @@
-import { useContext } from 'react';
-import styled from 'styled-components';
-import { GameContext } from '../Pages/Game';
-import GuessDisplay from '../Features/GuessDisplay';
+import { useContext } from "react";
+import styled from "styled-components";
+import { GameContext } from "../pages/Game";
+import GuessDisplay from "../Features/GuessDisplay";
 
 const StyledGuesses = styled.div`
   display: flex;
@@ -21,7 +21,7 @@ function GuessesDisplay() {
         } else if (i === guessesList.length) {
           return <GuessDisplay key={i}>{userWordStr}</GuessDisplay>;
         } else {
-          return <GuessDisplay key={i}>{''}</GuessDisplay>;
+          return <GuessDisplay key={i}>{""}</GuessDisplay>;
         }
       })}
     </StyledGuesses>
