@@ -1,4 +1,4 @@
-import toast from "../../../Back-end/utils/toast";
+import toast from "../../util/toast";
 import api from "./axios";
 
 export const play = async function () {

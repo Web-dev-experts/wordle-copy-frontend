@@ -1,6 +1,6 @@
 /* eslint-disable */
 import api from "./axios";
-import toast from "../../../Back-end/utils/toast";
+import toast from "../../util/toast";
 
 export const login = async function (email, password) {
   try {

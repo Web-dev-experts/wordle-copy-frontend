@@ -11,7 +11,7 @@ import {
 import { login } from "../api/auth.api";
 import { authContext } from "../Features/AuthContext";
 import { useNavigate } from "react-router-dom";
-import toast from "../../../Back-end/utils/toast";
+import toast from "../../util/toast";
 
 function LoginPage() {
   const { setUser } = useContext(authContext);
